@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { TokenGate } from '@/components/TokenGate';
 import { getSession } from '@/utils/session';
 
+export const fetchCache = 'default-no-store'
 async function Content({ searchParams }: { searchParams: SearchParams }) {
   const data = await getSession(searchParams);
   // Console log the data to see what's available
