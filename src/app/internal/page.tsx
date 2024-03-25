@@ -46,7 +46,7 @@ async function Content({ searchParams }: { searchParams: SearchParams }) {
           This page is served to internal users.
         </h2>
         <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-          This is an example of a page that is served to internal users only.
+          This is an example of a page that is served to internal users only
         </p>
       </div>
     </main>
